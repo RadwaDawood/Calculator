@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#4B6587, #C8C6C6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.claculator {
+    padding: 10px;
+    width: 280px;
+    margin-top: 100px;
+    margin: 100px auto;
+    background-image: linear-gradient(#F7F6F2, #F7F6F2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1), -10px -10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: linear-gradient(#F8D0B3, #f7decc);
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.8), -3px -3px 5px rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #4B6587;
+    /*font-weight: bold;*/
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover {
+    background-image: linear-gradient(#f5bc93, #f1c7a9);
+}
+
+#zero,
+#one,
+#tow,
+#three,
+#four,
+#dot,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+    background-image: linear-gradient(#e0e0e0, #e0e0e0);
+    color: #4B6587;
+}
+
+#zero:hover,
+#one:hover,
+#tow:hover,
+#three:hover,
+#four:hover,
+#dot:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover {
+    background-image: linear-gradient(#C8C6C6, #C8C6C6);
+}
+
+#equal {
+    width: 113px;
+    background-image: linear-gradient(#4B6587, #929292);
+    color: white;
+}
+
+#equal:hover {
+    background-image: linear-gradient(#123768, #796d6d);
+}
+
+#display {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 1.4em;
+    opacity: 0.9;
+}
+
+input[type="Text"] {
+    width: 240px;
+    height: 20px;
+    background-image: linear-gradient(#F7F6F2, #F7F6F2);
+    border: none;
+    color: #4B6587;
+    font-size: 1.4em;
+    text-align: end;
+}
+
+#result {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+
+/*******************************************************/
+
+
+/*********** For Anouther Way************/
+
+
+/*button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-image: linear-gradient(#F8D0B3, #f7decc);
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.8), -3px -3px 5px rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #4B6587;
+
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-image: linear-gradient(#f5bc93, #f1c7a9);
+}*/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="claculator">
+        <form>
+            <input type="text" name="display" id="display">
+            <input type="text" name="display" id="result">
+            <div class="buttons">
+                <input type="button" value="C" id="clear">
+                <input type="button" value="Del" id="del">
+                <input type="button" value="%" id="modulos" onclick="calculator('%')">
+                <input type="button" value="/" id="divide" onclick="calculator('/')"><br>
+                <input type="button" value="7" id="seven" onclick="calculator('7')">
+                <input type="button" value="8" id="eight" onclick="calculator('8')">
+                <input type="button" value="9" id="nine" onclick="calculator('9')">
+                <input type="button" value="*" id="mult" onclick="calculator('*')"><br>
+                <input type="button" value="4" id="four" onclick="calculator('4')">
+                <input type="button" value="5" id="five" onclick="calculator('5')">
+                <input type="button" value="6" id="six" onclick="calculator('6')">
+                <input type="button" value="+" id="blus" onclick="calculator('+')"><br>
+                <input type="button" value="1" id="one" onclick="calculator('1')">
+                <input type="button" value="2" id="tow" onclick="calculator('2')">
+                <input type="button" value="3" id="three" onclick="calculator('3')">
+                <input type="button" value="-" id="minous" onclick="calculator('-')"><br>
+                <input type="button" value="0" id="zero" onclick="calculator('0')">
+                <input type="button" value="." id="dot" onclick="calculator('.')">
+                <input type="button" value="=" id="equal" onclick="Display()">
+
+            </div>
+        </form>
+    </div>
+
+    <!-- For Anouther Way -->
+    <!-- 
+    <div class="claculator">
+        <form>
+            <div>
+                <div>
+                    <p id="display" style="height:20px;"> </p>
+                </div>
+                <div>
+                    <p id="result" style="height:20px;">
+                </div>
+            </div>
+            <div class="buttons">
+                <button value="C" id="clear" class="operator">C</button>
+                <button value="Del" id="del" class="operator">Del</button>
+                <button value="%" id="modulos" class="operator">%</button>
+                <button value="/" id="divide" class="operator">/</button><br>
+                <button value="7" id="seven" class="number">7</button>
+                <button value="8" id="eight" class="number">8</button>
+                <button value="9" id="nine" class="number">9</button>
+                <button value="*" id="mult" class="operator">*</button><br>
+                <button value="4" id="four" class="number">4</button>
+                <button value="5" id="five" class="number">5</button>
+                <button value="6" id="six" class="number">6</button>
+                <button value="+" id="blus" class="operator">+</button><br>
+                <button value="1" id="one" class="number">1</button>
+                <button value="2" id="tow" class="number">2</button>
+                <button value="3" id="three" class="number">3</button>
+                <button value="-" id="minous" class="operator">-</button><br>
+                <button value="0" id="zero" class="number">0</button>
+                <button value="." id="dot" class="number">.</button>
+                <button value="=" id="equal" class="operator">=</button>
+
+            </div>
+        </form>
+    </div>
+ -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
